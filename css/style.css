@@ -22,8 +22,8 @@
 
 /* ღილაკი  */
 .btn_box {
-    width: 23%;
-    height: 120px;
+    width: 400px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
 
 .added_cv {
     width: 85%;
-    height: 75%;
+    height: 70%;
     color: #f1ebe5;
     background: #f1ebe5;
     text-shadow: 0 5px 5px #847966, 0px -2px 1px #fff;
