@@ -1,0 +1,70 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #ece4d9 0%, #e9dfd1 100%);
+}
+
+/* პირველი გვერდის მთავარი ტექსტი  */
+.create_resume {
+    text-transform: uppercase;
+    font-size: 6rem;
+    text-align: center;
+    color: #f1ebe5;
+    text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+    font-weight: bold;
+    word-spacing: 20px;
+}
+
+/* ღილაკი  */
+.btn_box {
+    width: 23%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+
+    background: linear-gradient(to bottom, #dcd4c9 0%, #d6ccbd 100%);
+    box-shadow: -10px -10px 10px #f3efec,
+        13px 13px 15px #9a8f7c,
+        inset -5px -5px 5px #f1eeea,
+        inset 5px 5px 5px #9a8f7c;
+    position: relative;
+}
+
+.added_cv {
+    width: 85%;
+    height: 75%;
+    color: #f1ebe5;
+    background: #f1ebe5;
+    text-shadow: 0 5px 5px #847966, 0px -2px 1px #fff;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid white;
+    cursor: pointer;
+    box-shadow: -2px -2px 7px #bdb5ad,
+        2px 2px 7px #bdb5ad;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 1s ease;
+}
+
+
+.added_cv:hover {
+    left: 43%;
+}
+
+
+
+
+
+
